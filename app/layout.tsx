@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { Outfit,} from "next/font/google";
 import "./globals.css";
 
-const outfit = Outfit({ subsets: ["latin"], weight: ['400', '600', '700']});
+import {outfit} from './fonts'
 
 export const metadata: Metadata = {
   title: "Create Next App",

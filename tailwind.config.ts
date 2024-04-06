@@ -19,9 +19,6 @@ const config: Config = {
         'dark-charcoal': 'hsl(24, 5%, 18%)',
         'dark-raspberry': 'hsl(332, 51%, 32%)',
         'nutmeg': 'hsl(14, 45%, 36%)'
-      },
-      fontFamily: {
-        'young-serif': 'var(--font-serif)'
       }
     },
   },
