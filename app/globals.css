@@ -7,7 +7,7 @@ body {
 }
 
 li {
-    @apply pl-9
+    @apply pl-9 py-2
 }
 
 
