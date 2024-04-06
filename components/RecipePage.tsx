@@ -1,4 +1,3 @@
-import { youngSerif } from '@/app/layout'
 import Image from 'next/image'
 
 export const RecipePage = () => {
@@ -14,7 +13,7 @@ export const RecipePage = () => {
             />
 
             <div className='flex flex-col gap-y-5'>
-                <h1 className={` text-4xl font-young-serif  ${youngSerif.className}`}>
+                <h1 className='text-4xl font-young-serif'>
                     Simple Omelette Recipe
                 </h1>
                 <p>A simple and quick dish, perfect for any meal. This classic omelette combines beaten eggs
@@ -31,7 +30,7 @@ export const RecipePage = () => {
             </div>
 
             <div className='flex flex-col gap-y-3'>
-                <h2 className={`text-nutmeg text-3xl ${youngSerif.className}`}>Ingredients</h2>
+                <h2 className='text-nutmeg text-3xl font-young-serif'>Ingredients</h2>
                 <ul className='list-disc m-2 marker:text-xs ml-4'>
                     <li>2-3 large eggs</li>
                     <li>Salt, to taste</li>
@@ -42,7 +41,7 @@ export const RecipePage = () => {
             <hr />
 
             <div className='flex flex-col gap-y-3'>
-                <h2 className={`text-nutmeg text-3xl ${youngSerif.className}`}>Instructions</h2>
+                <h2 className='text-nutmeg text-3xl font-young-serif'>Instructions</h2>
                 <ol className='list-decimal m-2 marker:font-semibold marker:text-nutmeg'>
                     <li><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until
                         they are well mixed. You can add a tablespoon of water or milk for a fluffier expirience.
@@ -58,7 +57,7 @@ export const RecipePage = () => {
             <hr />
 
             <div className='flex flex-col gap-y-3'>
-                <h2 className={`text-nutmeg text-3xl ${youngSerif.className}`}>Nutrition</h2>
+                <h2 className='text-nutmeg text-3xl ${youngSerif.className} font-young-serif'>Nutrition</h2>
                 <p>The table below shows nutritional values per serving without the additional fillings.</p>
 
                 <table>
